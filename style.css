@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 66.6%;
+}
+body {
+  background: #17181a;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 1.6rem;
+}
+
+#logo {
+  color: white;
+  text-decoration: none;
+  font-family: 'Abril Fatface', sans-serif;
+}
+
+.nav-header {
+  min-height: 10vh;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-1,
+.line-2 {
+  width: 5rem;
+  height: 0.3rem;
+  margin: 0.4rem;
+  background: white;
+  pointer-events: none;
+}
+
+.slide {
+  min-height: 100vh;
+
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img > img {
+  width: 800px;
+  object-fit: cover;
+}
+
+.hero-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  flex-basis: 25rem;
+  padding-left: 5rem;
+  position: relative;
+}
+.hero-img {
+  flex-basis: 25rem;
+  position: relative;
+  flex: 1;
+}
+
+.hero-desc h2 {
+  font-family: 'Abril Fatface';
+  font-size: 5rem;
+}
+.hero-desc p {
+  padding: 3rem 0;
+  font-size: 2.3rem;
+  color: rgb(223, 223, 233);
+}
+
+.mountain-span {
+  color: rgb(86, 124, 228);
+}
+.hiking-span {
+  color: rgb(167, 110, 231);
+}
+.skiing-span {
+  color: rgb(255, 139, 93);
+}
+.explore {
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 1rem 2rem;
+  align-self: flex-start;
+  cursor: pointer;
+}
